@@ -9,6 +9,7 @@ public class Game {
 	private boolean isPlaying;
 	private GUI gui;
 
+	// Constructor
 	public Game(int width, int height, boolean fixedRandom, int seed) {
 		this.board = new LinkedGrid<Character>(width, height);
 
